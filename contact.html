@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ken3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar"> 
+    <img src="https://i.pinimg.com/564x/3c/50/cb/3c50cba2b400b879eae2696aae9c1112.jpg" class="logo">
+     <ul>
+        <li><a href="web2.html">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="house.html">Houses</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Logout</a></li>
+            
+     </ul>
+     </div>
+     <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>Email: kpelandas@gmail.com</p>
+            <p>Phone: 09463040125</p>
+            <p>Address: Buaya, Lapu-lapu city</p>
+        </div>
+        <form class="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" href="https://www.facebook.com/messages/t/100009623087954">Send Message</button>
+        </form>
+    </section>
+    
+    </div>
+</body>
+<style>
+
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(8,0,8,0.75),rgba(0,0,8,0.75)),url(https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-bedroom-with-plants-on-it-with-an-old-bed-image_2965131.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+
+}
+
+.navbar ul li a{
+    
+width: 100px;
+margin:15px;
+box-sizing: border-box;
+text-align: center;
+border-radius: 20px;
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+cursor: pointer;
+padding-top: 10px;
+transition: .4s;
+
+
+
+}
+
+
+
+
+.navbar ul li a:hover {
+    color: red;
+    
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+
+h1 {
+color: whitesmoke;
+}
+img {
+    border-radius: 50%
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+margin: 20px auto;
+font-weight: 100;
+
+
+
+}
+
+.btn{
+position: relative;
+width: 100px;
+margin:15px;
+box-sizing: border-box;
+text-align: center;
+border-radius: 20px;
+    
+padding: 10px;
+border-radius: 20px;
+background-color: rgba(91, 153, 91, 0.836);
+box-shadow: 3px 1px 2px 2px rgb(38, 75, 49);
+text-align: center;
+cursor: pointer;
+padding-top: 10px;
+box-shadow: 0 14px 28px rgba(0,0,0,0,25), 0 10px 10px rgba(0,0,0,0,22);
+transition: .4s;
+}
+.btn:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0,16), 0 10px 10px rgba(0,0,0,0,23);
+transform: translate(0px, -8px);
+}
+    
+    .contact {
+    border: 2px solid ;   
+  background-color: transparent;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 65px;
+box-sizing: border-box;
+text-align: center;
+border-radius: 100px;
+
+
+
+
+background-color: white;
+border: 1px solid #333;
+   
+    
+}
+
+.contact h2 {
+    color: Black;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 6px 0;
+    color: black;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+</style>
+</html>
